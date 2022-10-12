@@ -1,81 +1,130 @@
+/* Google fonts */
+
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
 
 *{
   background-color: #f2f2f2;
 }
-body{
-  /* max-height: 90%; */
-}
-.wrapper{
-  display: flex;
-  border-radius: 5px;
-  width: 70%;
-  height: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 80px;
+@media (min-width: 375px){
+  .wrapper{
+    display: flex;
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+  
+  }
 
+  .flex1{
+    background-color: #e38826;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  .flex2{
+    background-color: #006970;
+  }
+  .flex3{
+    background-color: #004241;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  div{
+    padding: 55px;
+  }
 }
+
 img{
   background-color: inherit;
   margin-bottom: 10px;
 }
-.flex1{
-  background-color: #e38826;
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-}
-.flex2{
-  background-color: #006970;
-}
-.flex3{
-  background-color: #004241;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-}
+
 h1{
   background-color: inherit;
+  font-family: 'Lexend Deca', sans-serif;
   color: #f2f2f2;
   text-transform: uppercase;
-  font-family: Big Shoulders Display;
   font-weight: 700;
 }
 p{
   background-color: inherit;
-  font-family: Lexend Deca;
+  font-family: 'Big Shoulders Display', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #ffffffbf;
 }
-div{
-  padding: 50px;
-}
-.button-holder{
-  background-color: inherit;
-  padding-bottom: 50px;
-}
-#btn1{
 
+
+#btn1{
+ color: #e38826;
 }
 #btn2{
-  
+  color: #006970;
 }
 #btn3{
   color: #004241;
 }
 button{
-  margin-bottom: 0;
+  margin-top: 40px;
   display: inline-block;
-  padding: 6px 12px;
+  padding: 5px 30px;
   text-align: center;
   font-size: 15px;
   background-color: #f2f2f2;
   border: 1px solid transparent;
-  border-radius: 30px;
+  border-radius: 35px;
   margin-left: -30;
 }
 button:hover{
   border: 1px #f2f2f2 solid;
   border-radius: 30px;
   background-color: inherit;
-  color: #f2f2f2;
+  display: inline-block;
+  color: #f2f2f2 !important;
+}
+
+@media (max-width:375px){
+  .wrapper{
+    display: flex;
+    max-width: 90%;
+    height: 70%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: auto;
+    flex-direction: column;
+  }
+  .wrapper div{
+    width: 88%;
+  }
+
+  div{
+    padding: 15px;
+  }
+
+  .flex1{
+    background-color: #e38826;
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+    border-bottom-left-radius: 0px;
+  }
+  .flex2{
+    background-color: #006970;
+  }
+  .flex3{
+    background-color: #004241;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 0px;
+  }
+
+  img{
+    padding-top: 20px;
+  }
+
+  button{
+    margin-bottom: 20px;
+  }
 }
