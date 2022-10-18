@@ -14,5 +14,9 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+<<<<<<< HEAD
 .vscode
 grid.html
+=======
+.vscode
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b

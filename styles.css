@@ -1,4 +1,10 @@
 /* Google fonts */
+<<<<<<< HEAD
+=======
+
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
 
 @import url(https://fonts.google.com/specimen/Lexend+Deca);
 @import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
@@ -6,6 +12,7 @@
 * {
   background-color: #f2f2f2;
 }
+<<<<<<< HEAD
 
 @media (min-width: 375px) {
   .wrapper {
@@ -20,20 +27,43 @@
   }
 
   .flex1 {
+=======
+@media (min-width: 375px){
+  .wrapper{
+    display: flex;
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+  
+  }
+
+  .flex1{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
     background-color: #e38826;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
   }
+<<<<<<< HEAD
 
   .flex2 {
     background-color: #006970;
   }
 
   .flex3 {
+=======
+  .flex2{
+    background-color: #006970;
+  }
+  .flex3{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
     background-color: #004241;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
   }
+<<<<<<< HEAD
 
   div {
     padding: 55px;
@@ -87,11 +117,24 @@
 }
 
 img {
+=======
+  
+  div{
+    padding: 55px;
+  }
+}
+
+img{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
   background-color: inherit;
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+h1{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
   background-color: inherit;
   font-family: 'Lexend Deca', sans-serif;
   color: #f2f2f2;
@@ -108,19 +151,30 @@ p {
 }
 
 
+<<<<<<< HEAD
 #btn1 {
   color: #e38826;
 }
 
 #btn2 {
+=======
+#btn1{
+ color: #e38826;
+}
+#btn2{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
   color: #006970;
 }
 
 #btn3 {
   color: #004241;
 }
+<<<<<<< HEAD
 
 button {
+=======
+button{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
   margin-top: 40px;
   display: inline-block;
   padding: 5px 30px;
@@ -140,10 +194,15 @@ button:hover {
   color: #f2f2f2 !important;
 }
 
+<<<<<<< HEAD
 
 
 @media (max-width:375px) {
   .wrapper {
+=======
+@media (max-width:375px){
+  .wrapper{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
     display: flex;
     max-width: 90%;
     height: 70%;
@@ -152,6 +211,7 @@ button:hover {
     margin: auto;
     flex-direction: column;
   }
+<<<<<<< HEAD
 
   .wrapper div {
     width: 88%;
@@ -162,23 +222,42 @@ button:hover {
   }
 
   .flex1 {
+=======
+  .wrapper div{
+    width: 88%;
+  }
+
+  div{
+    padding: 15px;
+  }
+
+  .flex1{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
     background-color: #e38826;
     border-top-left-radius: 7px !important;
     border-top-right-radius: 7px !important;
     border-bottom-left-radius: 0px;
   }
+<<<<<<< HEAD
 
   .flex2 {
     background-color: #006970;
   }
 
   .flex3 {
+=======
+  .flex2{
+    background-color: #006970;
+  }
+  .flex3{
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
     background-color: #004241;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 0px;
   }
 
+<<<<<<< HEAD
   img {
     padding-top: 20px;
   }
@@ -240,4 +319,13 @@ button:hover {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+=======
+  img{
+    padding-top: 20px;
+  }
+
+  button{
+    margin-bottom: 20px;
+  }
+>>>>>>> fa4e47e3768127a6863dcfce1bc69577da38bf3b
 }
