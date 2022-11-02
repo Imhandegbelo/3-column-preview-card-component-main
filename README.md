@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://my-solution-url.com)
-- Live Site URL: [Live site](https://my-live-site-url.com)
+- Live Site URL: [Live site](https://imhandegbelo.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
